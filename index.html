@@ -5,14 +5,12 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>苹果风格欢迎页面</title>
  <link rel="stylesheet" href="style.css">
+ <script src="click_counter.js"></script>
 </head>
 <body>
  <div class="container">
    <h1>欢迎来到苹果风格页面！</h1>
    <p>这是一个静态的、苹果风格的欢迎页面，简约而优雅。</p>
-   <a href="https://www.baidu.com" class="welcome-button">
-     <button>开始探索</button>
-   </a>
- </div>
-</body>
+   <button onclick="handleClick()">点击我可以计数</button>
+   <p id="clickCountDisplay">点击次数: 0</p>
 </html>
